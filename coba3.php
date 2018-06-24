@@ -14,7 +14,7 @@ $angka2=4+1;
 
 $hasil=$angka1%$angka2;
 
-echo "hasil modulonya = $hasil <br>";
+echo "hasil modulo = $hasil <br>";
 
 //increment
 
@@ -30,9 +30,9 @@ echo "hasil incremennya c = $c <br>";
 //perbandingan
 echo "--------------------------------<br>";
 $angka1=10;
-$angka2="10";
+$angka2="7";
 
-if($angka1!=$angka2){
+if($angka1<$angka2){
     echo "kondisinya sama";
 }else{
     echo "kondisinya tidak sama";
